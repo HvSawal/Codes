@@ -19,7 +19,12 @@ int main(){
         dynamic_array.push_back(i+1);     //push_back is used to insert values at the end of the vector.
     }//running time of push_back is anortized to O(1) as it appends to the end of vector, in simple terms
     cout<<"Vector size: "<<dynamic_array.size()<<endl;
+    printVector(dynamic_array);
     cout<<"Is the vector empty? : "<<dynamic_array.empty()<<endl;
     auto it = dynamic_array.insert(dynamic_array.begin()+3, 54); //iterate over till 4th index and insert the new element. running time is O(n)
+    cout<<"Updated Vector size: "<<dynamic_array.size()<<endl;
+    printVector(dynamic_array);
+    dynamic_array.pop_back();
+    cout<<"Updated Vector size: "<<dynamic_array.size()<<endl;
     printVector(dynamic_array);
 }
