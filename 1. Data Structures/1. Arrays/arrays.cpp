@@ -22,7 +22,6 @@ int main(){
     /*Learning to Implement Arrays in different ways
     *1. Static Implementaion
     *2. Dynamic Implementation (STL)
-    *3. Dynamic Implementation (Pointers)
     */
 
     //Static Implementation
