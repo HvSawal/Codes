@@ -40,7 +40,7 @@ int main(){
     //=======================================================================================
     vector<int> dynamic_array;  //This initializes an empty array of size 5
     for(int i=0;i<10;i++){
-        dynamic_array.push_back(i);
+        dynamic_array.push_back(i);     //push_back is used to insert values at the end of the vector.
     }
     printVector(dynamic_array);
 
