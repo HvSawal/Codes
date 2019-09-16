@@ -8,8 +8,8 @@
         B = [17, 35, 39, 40, 55, 58, 60]</br>
         <strong>OUTPUT: </strong>3
         Because,
-        A = [13, 27, <strong>35, 40</strong>, 49, <strong>55</strong>, 59],
-        B = [17, <strong>35</strong>, 39, <strong>40</strong>, <strong>55</strong>, 58, 60]
+        A = [13, 27, <strong><em>35</em>, <em>40</em></strong>, 49, <strong><em>55</em></strong>, 59],
+        B = [17, <strong><em>35</em></strong>, 39, <strong><em>40</em></strong>, <strong><em>55</em></strong>, 58, 60]
         return <strong>3</strong>.
         </pre>
     <p>&nbsp;</p>
