@@ -1,7 +1,6 @@
 <div><div><p>Given a string containing just the characters '(', ')', '{', '}', '[' and ']', determine if the input string is valid.</p>
 
 <p>An input string is valid if:</p>
-1. A numbered list
     1. Open brackets must be closed by the same type of brackets.
     2. Open brackets must be closed in the correct order.
 
