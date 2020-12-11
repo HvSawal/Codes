@@ -19,6 +19,6 @@ def solution(S):
     else:
       n+=1
     count+=1
-  return count;
+  return count
 
 print(solution('14'))
